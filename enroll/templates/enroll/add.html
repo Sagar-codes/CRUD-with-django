@@ -1,0 +1,16 @@
+{% extends 'enroll/base.html'%}
+
+{% block title %}CRUD - Add{% endblock title%}
+
+{% block body %}
+<div class="row text-center align-items-center">
+    <h1>Add New Todo</h1>
+    <div class="offset-1 w-75">
+        <form action="" method="POST" class="">
+            {% csrf_token %}
+            {{form.as_p}}
+            <input type="submit" class="btn btn-success" value="Add">
+        </form>
+    </div>
+</div>
+{% endblock body %}
