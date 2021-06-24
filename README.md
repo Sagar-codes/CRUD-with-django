@@ -1,0 +1,1 @@
+# CRUD-with-djano it was commited my me bcz i have a issue with my system where my another account is saved in git bash i cant use this account to push so i decided to push this from form my second account
