@@ -5,6 +5,7 @@ class Todo(models.Model):
     title = models.CharField(max_length=250)
     desc = models.CharField(max_length=500)
     date_created = models.DateTimeField(auto_now_add=True)
+    date_modeifed = models.DateTimeField(auto_add=True)
 
 
     def __str__(self):
